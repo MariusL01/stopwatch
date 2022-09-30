@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #233241;
+}
+
+.container {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #121a21;
+  border-radius: 20px;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.timeUnits {
+  color: white;
+  font-size: 6rem;
+}
+
+button {
+  height: 3rem;
+  width: 5rem;
+  background-color: rgb(171, 50, 50);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+button:active {
+  background-color: rgb(144, 41, 41);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
